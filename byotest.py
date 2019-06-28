@@ -13,6 +13,6 @@ def test_not_in(collection, item):
 def test_between(upper_limit, lower_limit, actual):
     assert lower_limit <= actual <= upper_limit, '%s is not between %s and %s'%(actual, lower_limit, upper_limit)
 
-test_is_in([1,2], 2)
-test_not_in([1], 2)
-test_between(15, 1, 20)
+#test_is_in([1,2], 2)
+#test_not_in([1], 2)
+#test_between(15, 1, 20)
